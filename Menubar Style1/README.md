@@ -1,30 +1,37 @@
 # React + TypeScript + Vite
+We'll walk you the though process of creating a dynamic navbar component with react,typescript and bootstrap 5 using vite.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+In this menubar link logo,logoname,menus,search button are included. 
 
-Currently, two official plugins are available:
+first we install project to your folder
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+npm init vite@latest my-menubar --template react-ts(press enter)
 
-## Expanding the ESLint configuration
+we get a command for proceed
+type y (press enter)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+select a framework from the displayed list
+React (press enter)
 
-- Configure the top-level `parserOptions` property like this:
+select any variant
+typescript (press enter)
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+then Install i
+so npm i (press enter)
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+run the project
+npm dev run
+
+then install extension
+prettier extension
+ES7 + react/redux/react-native/js snippets extension list
+
+npm install bootstrap
+
+
+
+
+
+
+
+
