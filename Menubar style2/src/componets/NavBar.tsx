@@ -1,9 +1,15 @@
 import { useState } from "react";
 import "../App.css"
+interface ItemList
+{
+    id:number;
+    label:string;
+    link:string
+}
 interface NavBarProps {
   brandName: string;
   imageSrcPath: string;
-  navItems: [{id:number},{label:string},{link:string}];
+  navItems: ItemList[];
   
 }
 function NavBar({ brandName, imageSrcPath, navItems }: NavBarProps) {
