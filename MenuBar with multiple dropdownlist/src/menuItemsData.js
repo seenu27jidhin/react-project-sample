@@ -35,13 +35,13 @@ export const menuItemsData = [
           ],
         },
         {
-          title: 'SEO',
-          url: 'seo',
+          title: 'Product',
+          url: '/product',
         },
       ],
     },
     {
-      title: 'About',
-      url: '/about',
+      title: 'Contact',
+      url: '/contact',
     },
   ];
